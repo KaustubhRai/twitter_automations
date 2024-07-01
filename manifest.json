@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Twitter Not Interested Shortcut",
+    "version": "1.0",
+    "description": "Adds a button to mark tweets as 'Not Interested' with a single click.",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://x.com/*"],
+        "js": ["content.js"],
+        "css": ["styles.css"]
+      }
+    ],
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  

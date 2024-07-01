@@ -1,0 +1,26 @@
+.not-interested-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 5px 10px;
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 1000;
+    font-size: 12px;
+    opacity: 0.8;
+    transition: opacity 0.3s, background-color 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .not-interested-btn:hover {
+    background-color: #0d95e8;
+    opacity: 1;
+  }
+  
+  .tweet-container {
+    position: relative;
+  }
+  
